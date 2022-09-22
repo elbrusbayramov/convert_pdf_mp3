@@ -1,23 +1,3 @@
-"""
-- Share little experience when I made freelance job
-- Sometimes juniors faced with this task on interview
-- Our goal write script  which takes as input the absolute path of pdf file
-- You can choose the language for output mp3 file (en ru hindu)
-- And get ready mp3 file in chosen language
-- There a lot of third party libs which can fulfill our requirements
-- we choose pdfplumber
-- install libs pip install pdfplumber gtts
-
-code
-1. import libs
-2. create function pdf_to_mp3 which have 2 arguments
-3. first lets check whether we have a pdf file in provided path
-To reach this we need to import pathlib from Path
-4. Then lets read pdf file to a  usual text file. We use PDF of lib....then we need to go thru all pages and save text of these pages
-5. Now we need remove new lines , or empty lines in order to avoid pauses in our resulting mp3 file
-6. Lets create now mp3 file
-"""
-
 from gtts import gTTS
 import pdfplumber
 from pathlib import Path
